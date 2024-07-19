@@ -59,12 +59,17 @@ for (let i = 1; i <= n; i++) {
 
 console.log("*****Activity 5 - Loop Control Statements*********");
 console.log("_____Task 8_____");
-let numbe = 1;
-do {
-  if (numbe !== 5) {
-    console.log(numbe);
+for (let n = 1; n <= 10; n++) {
+  if (n == 5) {
+    continue;
   }
-  numbe++;
-} while (numbe <= 10);
+  console.log(n);
+}
 
 console.log("_____Task 9_____");
+for (let n_break = 1; n_break <= 10; n_break++) {
+  if (n_break == 7) {
+    break;
+  }
+  console.log(n_break);
+}
