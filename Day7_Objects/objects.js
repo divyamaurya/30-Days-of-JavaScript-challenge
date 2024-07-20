@@ -50,7 +50,7 @@ console.log(bookList);
 console.log(nameList);
 
 console.log("*****Activity 4 - The this Keyword*********");
-console.log("_____Task 7_____");
+// console.log("_____Task 7_____");
 // console.log(book.getYearTitle());
 console.log("*****Activity 4 - The this Keyword*********");
 console.log("_____Task 8_____");
