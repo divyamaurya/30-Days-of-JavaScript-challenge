@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom Manipulation</title>
+    <style>
+      .hightlight {
+        background-color: yellow;
+      }
+      .hightlight2 {
+        background-color: blue;
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body id="body">
+    <p id="textChange">Initial Text</p>
+    <h1 class="bgColor">Background Color for h1</h1>
+    <ul id="ulList"></ul>
+    <img
+      src="https://images.unsplash.com/photo-1719937050792-a6a15d899281?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      width="200px"
+      alt="randomImg"
+      id="image"
+    />
+    <div id="myElement">Element to add class</div>
+    <div id="myElement2" class="hightlight2">Element to remove class</div>
+    <div class="buttonClickEvent">
+      <p id="text">Initial text</p>
+      <button onclick="clickToUpdateText()">Click me to change text</button>
+      <button id="eventListenerbtn">Event Listener Button</button>
+    </div>
+    <script src="./domManipulation.js"></script>
+  </body>
+</html>
