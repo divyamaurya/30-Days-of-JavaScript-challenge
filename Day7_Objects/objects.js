@@ -11,7 +11,8 @@ const book = {
   getYear: (newYear) => {
     book.year = newYear;
   },
-  getYearTitle: () => {
+  getYearTitle: function () {
+    //Arrow function doesn't work with this keyword
     return `${this.year} and ${this.title}`;
   },
 };
@@ -50,8 +51,8 @@ console.log(bookList);
 console.log(nameList);
 
 console.log("*****Activity 4 - The this Keyword*********");
-// console.log("_____Task 7_____");
-// console.log(book.getYearTitle());
+console.log("_____Task 7_____");
+console.log(book.getYearTitle());
 console.log("*****Activity 4 - The this Keyword*********");
 console.log("_____Task 8_____");
 for (let key in book) {
